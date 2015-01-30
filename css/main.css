@@ -1,0 +1,85 @@
+html {
+  background-color: #78d1bb;
+  font-family: arial;
+  font-size: 1rem;
+}
+
+blockquote {
+  padding: 1rem;
+  font-family: 'Lobster', cursive;
+}
+
+h1, h2 {
+  font-family: 'Bevan', cursive;
+  color: #3b6d61;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+ol { list-style-type: none;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: blue;
+
+}
+
+figcaption {
+
+  font-style: italic;
+  font-size: .75rem;
+  padding: 2rem;
+}
+cite {
+
+  font-size: .25rem;
+  text-align: center;
+  float: right;
+  line-height: 2;
+
+}
+p{
+  line-height: 1.5;
+}
+
+ul{
+
+  list-style-type: lower-roman;
+
+}
+b{
+  font-weight: normal;
+  color: white;
+}
+dt{
+  font-weight: bold;
+}
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+}
+a {
+  background-color: pink;
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+header {
+  background-color: white;
+  padding: 1em 2em 3em 0.5em;
+}
