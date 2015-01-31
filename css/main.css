@@ -15,7 +15,6 @@ h1,h2 {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1;
-  padding: 1em 1em 1em 0em;
   margin: 0;
 }
 
@@ -30,23 +29,40 @@ a:hover {
   color: blue;
 
 }
+img {
+  width: 110%;
+}
+figure {
+  border: 3px solid grey;
+  border-radius:  12px;
+  padding: 1em 2em 1em 1em;
+  text-align: center;
+
+}
 
 figcaption {
 
   font-style: italic;
   font-size: .75rem;
-  padding: 2rem;
+  padding: 1rem;
+  text-align: center;
 }
 cite {
 
-  font-size: .25rem;
+  font-size: 1rem;
   text-align: center;
-  float: right;
-  line-height: 2;
+  line-height: 1;
+  display: block;
+  padding: 0em 0em 1em 5em;
+  font-family: 'Lobster', cursive;
 
+}
+blockquote {
+  font-size: 2rem;
 }
 p{
   line-height: 1.5;
+
 }
 
 ul{
@@ -72,10 +88,15 @@ nav ol {
   padding: 1em;
   margin: 0;
   border: 10px;
+  border-radius: 2px;
 }
 nav li {
   display: inline-block;
   padding: .25em;
+  margin: .15em;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: black;
 }
 a {
   background-color: lightblue;
@@ -104,4 +125,7 @@ h1{
   color: grey;
   font-size: 2rem;
   padding: 0em;
+}
+h2{
+  padding: 1em 0em 0em 0em;
 }
