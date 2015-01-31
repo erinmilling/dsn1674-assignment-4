@@ -65,9 +65,11 @@ p{
 
 }
 
-ul{
+ul li{
 
   list-style-type: lower-roman;
+  line-height: 1;
+  padding: 1em 0em 0em 0em
 
 }
 b{
@@ -95,7 +97,7 @@ nav li {
   padding: .25em;
   margin: .15em;
   border: 1px solid black;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: black;
 }
 a {
@@ -128,4 +130,9 @@ h1{
 }
 h2{
   padding: 1em 0em 0em 0em;
+}
+ol{
+  list-style-type: circle;
+  text-decoration: underline;
+  padding: 0em 0em 0em 1em
 }
