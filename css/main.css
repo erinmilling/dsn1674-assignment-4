@@ -68,8 +68,8 @@ nav li {
   display: inline;
 }
 a {
-  background-color: pink;
-  display: block;
+  background-color: lightblue;
+  display: inline-block;
 }
 
 nav a {
@@ -80,6 +80,11 @@ nav a {
   text-decoration: none;
 }
 header {
-  background-color: white;
+  background-color: lightblue;
   padding: 1em 2em 3em 0.5em;
+  text-align: center;
+}
+footer {
+  background-color: lightblue;
+  padding: 1em 1em 1em 1em;
 }
